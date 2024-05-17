@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Portfolio Website</title>
+    <!-- custom cass link -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <a href="#home" class="logo">hysa<span>T</span>ech.</a>
+
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about" class="active">About</a></li>
+            <li><a href="#portfolio" class="active">Portfolio</a></li>
+            <li><a href="#blog" class="active">Blog</a></li>
+            <li><a href="#gallery" class="active">Gallery</a></li>
+            <li><a href="#contact" class="active">Contact</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Maudy Ayunda</h1>
+            <h3>Artist<span> &</span> Singer.</h3>
+            <p>"Tidak ada mimpi yang terlalu tinggi. Tak ada mimpi yang patut untuk diremehkan. Lambungkan setinggi yang
+                kau inginkan dan gapailah dengan selayaknya yang kau harapkan"</p>
+            <div class="button">
+                <a href="#" class="btn">Say Hello</a>
+                <a href="#portfolio" class="btn2"><span><i class='bx bx-play'></i></span>Watch My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.jpg" alt="About">
+        </div>
+
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Artist & Singer</h4>
+            <p>Ayunda Faza Maudya atau yang terkenal dengan nama Maudy Ayunda adalah seorang aktris dan penyanyi asal
+                Indonesia kini berumur 29 tahun. Berawal dari ikut casting di sekolah, Maudy Ayunda menjadi jatuh cinta
+                dengan dunia hiburan. Nama Maudy Ayunda pun mulai terkenal sebagai artis dan penyanyi Indonesia.
+                Kemampuan akting dan menyanyi Maudy Ayunda di dunia hiburan memang sangat luar biasa, ditambah lagi jika
+                Maudy memiliki paras yang cantik dan pintar.</p>
+            <div class="about-sci">
+                <a href="https://www.youtube.com/@modmedia"><i class='bx bxl-youtube'></i></a>
+                <a href="https://twitter.com/maudyayunda"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/maudyayunda/"><i class='bx bxl-instagram'></i></a>
+            </div>
+
+            <a href="#" class="btn">More About</a>
+        </div>
+    </section>
+
+    <!-- modal about -->
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h4>Biodata Maudy Ayunda</h4>
+            <p>Nama Lengkap : Ayunda Faza Maudya</p>
+            <p>Nama Panggung : Maudy Ayunda</p>
+            <p>Tempat, Tanggal Lahir : Jakarta, 19 Desember 1994</p>
+            <p>Nama Orangtua : Didit Jasmedi R. Irawan (ayah) dan Muren Murdjoko Jasmedi (ibu)</p>
+            <p>Saudara Kandung : Amanda Khairunnisa (adik perempuan)</p>
+            <h4> Pendidikan Maudy Ayunda</h4>
+            <p>SMP Mentari International School Jakarta</p>
+            <p>SMA British International School Jakarta</p>
+            <p>Jurusan Philosophy, Politics, and Economics, Universitas Oxford, Inggris</p>
+            <p>S2 di Universitas Stanford, Amerika Serikat</p>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <p>What I am Expert In</p>
+            <h2><span>Latest</span> Project</h2>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxs-film'></i>
+                </div>
+                <h3>Films</h3>
+                <p>Film yang Dibintangi Maudy Ayunda. Memulai karir di dunia akting sejak 2005, hingga ada begitu banyak
+                    film yang sudah rilis. Ini membuktikan, bukan cuma punya paras yang cantik tapi juga bakat akting.
+                </p>
+                <a href="#" class="read">Read More</a>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxs-music'></i>
+                </div>
+                <h3>Music</h3>
+                <p>Maudy Ayunda telah merilis tiga album studio, dua album mini, dan lebih dari 25 singel. Awalnya ia
+                    dikenal sebagai aktris film, yang kemudian terjun ke dunia musik pada tahun 2011 dengan meluncurkan
+                    album Panggil Aku.</p>
+                <a href="#" class="read">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this HTML code at the end of your body tag -->
+    <div id="filmModal" class="modal-film">
+        <div class="modal-content-film">
+            <span class="close-film">&times;</span>
+            <h4>Film Maudy Ayunda</h4>
+            <p>Untuk Rena (2005) | Sang Pemimpi (2009)</p>
+            <p>Rumah Tanpa Jendela (2011) | Tendangan dari Langit (2011)</p>
+            <p>Malaikat Tanpa Sayap (2012) | Perahu Kertas (2012)</p>
+            <p>Refrain (2013) | 2014: Siapa di Atas Presiden (2015)</p>
+            <p>Pengisi suara Battle of Surabaya (2015)</p>
+            <p>Rudy Habibie (2016) | Trinity, the Nekad Traveler (2017)</p>
+            <p>Trinity Traveler (2019) | Habibie & Ainun 3 (2019)</p>
+        </div>
+    </div>
+
+    <div id="musicModal" class="modal-music">
+        <div class="modal-content-music">
+            <span class="close-music">&times;</span>
+            <h4>Album Maudy Ayunda</h4>
+            <p>Panggil Aku. . . (2011)</p>
+            <p>Ost. Perahu Kertas (2012) </p>
+            <p>Moments (2015)</p>
+            <p>Oxygen (2018) </p>
+            <h4>Single Lagu Maudy Ayunda</h4>
+            <p>Aku atau Temanmu (album Panggil Aku. . .) (2011)</p>
+            <p>Tiba Tiba Cinta Datang (album Panggil Aku. . .)</p>
+            <p>Perahu Kertas (album Perahu Kertas)</p>
+            <p>Tahu Diri (album Perahu Kertas 2)</p>
+            <p>Cinta Datang Terlambat (soundtrack Refrain) (2013)</p>
+            <p>Never (album Hidden Collection) (2013)</p>
+        </div>
+    </div>
+
+    <!-- blog -->
+    <section class="blog" id="blog">
+        <div class="main-text">
+            <p>blog</p>
+            <h2><span>Artikel</span> Terbaru</h2>
+        </div>
+
+        <div class="blog-content">
+            <div class="row">
+                <img src="img/1.jpg" alt="#">
+                <div class="layer">
+                    <h5>Kehidupan Awal & Pendidikan</h5>
+                    <p>Maudy memiliki hobi membaca dari kecil, ia belajar membaca di usia 3 tahun.</p>
+                    <a href="https://id.wikipedia.org/wiki/Maudy_Ayunda#Kehidupan_awal_dan_pendidikan">
+                        <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/2.jpg" alt="#">
+                <div class="layer">
+                    <h5>Karier</h5>
+                    <p>Debutnya dalam dunia hiburan tanah air diawali lewat film Untuk Rena yang dibintanginya bersama
+                        Surya Saputra pada tahun 2005.</p>
+                    <a href="https://id.wikipedia.org/wiki/Maudy_Ayunda#Karier">
+                        <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/3.jpg" alt="#">
+                <div class="layer">
+                    <h5>Aktivisme</h5>
+                    <p>Maudy terlibat dalam kampanye melawan perbudakan modern, yang meliputi kerja paksa, pernikahan,
+                        dan pekerjaan berbahaya.</p>
+                    <a href="https://id.wikipedia.org/wiki/Maudy_Ayunda#Aktivisme">
+                        <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/4.jpg" alt="#">
+                <div class="layer">
+                    <h5>Penghargaan & Nominasi</h5>
+                    <p>Sejak debutnya dalam dunia entertainment, Maudy telah dinominasikan dianugerahi berbagai
+                        penghargaan.</p>
+                    <a href="https://id.wikipedia.org/wiki/Maudy_Ayunda#Penghargaan_dan_nominasi">
+                        <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/5.jpg" alt="#">
+                <div class="layer">
+                    <h5>Fashion</h5>
+                    <p>Maudy Ayunda digandeng sebagai Brand Advocate Uniqlo Indonesia pertama.</p>
+                    <a
+                        href="https://www.beautynesia.id/fashion/maudy-ayunda-jadi-brand-advocate-uniqlo-pertama-kenalkan-koleksi-spring-summer-2024/b-285192">
+                        <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/6.jpg" alt="#">
+                <div class="layer">
+                    <h5>Inspirasi</h5>
+                    <p>Maudy Ayunda menjadi salah satu dari 20 figur inspirasional berusia dibawah 40 tahun yang meraih
+                        penghargaan The Alpha Under 40.</p>
+                    <a
+                        href="https://video.sindonews.com/play/88553/maudy-ayunda-jadi-sosok-inspirasional-dalam-penghargaan-the-alpha-under-40-majalah-highend">
+                        <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- gallery -->
+    <section class="gallery" id="gallery">
+        <div class="main-text">
+            <p>Gallery</p>
+            <h2><span>My</span> Gallery</h2>
+        </div>
+
+        <div class="gallery-content">
+            <div class="gall">
+                <img src="img/7.jpg" alt="#">
+                <div class="gall-text">
+                    <p>Maudy Ayunda sebagai penulis berharap, jika pesan-pesan yang dibagikannya di dalam buku ini juga
+                        bisa bermanfaat untuk orang lain.</p>
+                </div>
+            </div>
+
+            <div class="gall">
+                <img src="img/8.jpg" alt="#">
+                <div class="gall-text">
+                    <p>Maudy Ayunda rilis Album Kedua Berisi 'Moments' Penting dalam Hidup. Album ini jadi
+                        self-reflection Maudy terhadap momen yang sudah terjadi.</p>
+                </div>
+            </div>
+
+            <div class="gall">
+                <img src="img/9.jpg" alt="#">
+                <div class="gall-text">
+                    <p>Maudy Ayunda Rilis Album Oxygen. Maudy berperan ganda dalam album ketiganya kali ini, yakni
+                        sebagai penyanyi, penulis lagu dan produser.</p>
+                </div>
+            </div>
+
+            <div class="gall">
+                <img src="img/10.jpg" alt="#">
+                <div class="gall-text">
+                    <p>Maudy Ayunda sebagai Brand Ambassador Pantene. Tak hanya memiliki rambut indah, Maudy berprestasi
+                        di bidang akademik maupun seni.</p>
+                </div>
+            </div>
+
+            <div class="gall">
+                <img src="img/11.jpg" alt="#">
+                <div class="gall-text">
+                    <p>Maudy Ayunda ditunjuk menjadi Juru Bicara Presidensi G20 Indonesia. Salah satu alasannya yaitu
+                        Maudy menguasai bahasa Inggris.</p>
+                </div>
+            </div>
+
+            <div class="gall">
+                <img src="img/12.jpg" alt="#">
+                <div class="gall-text">
+                    <p>Maudy Ayunda merupakan lulusan dari Oxford University dengan predikat cumlaude di jurusan PPE
+                        atau Politic, Philosopy, and Economics.</p>
+                </div>
+            </div>
+
+            <div class="gall">
+                <img src="img/13.jpg" alt="#">
+                <div class="gall-text">
+                    <p>Maudy Ayunda Borong Dua Gelar S2 di Stanford University dengan jurusan jurusan administrasi
+                        bisnis dan juga pendidikan.</p>
+                </div>
+            </div>
+
+            <div class="gall">
+                <img src="img/14.jpg" alt="#">
+                <div class="gall-text">
+                    <p>Maudy Ayunda menikah dengan pria asal Korea Selatan, Jesse Choi yang merupakan teman kuliahnya di
+                        Stanford University.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me!</span></h2>
+            <h4>Jika Anda mengalami masalah atau memiliki pertanyaan terkait website ini.</h4>
+            <p>Silakan hubungi tim dukungan kami. Kami siap membantu Anda menyelesaikan setiap kendala atau memberikan
+                informasi yang diperlukan. Terima kasih atas kerjasama dan kesabaran Anda."</p>
+            <div class="list">
+                <li><a href="http://wa.me/6285726277843">+62 8572 6277 843</a></li>
+                <li><a href="#">hysaTech.@gmail.com</a></li>
+            </div>
+
+            <div class="contact-icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <input type="" placeholder="Your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+                <input type="submit" value="Send" class="submit" required>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer-->
+    <section class="end">
+        <div class="last-text">
+            <p> Copyright &copy; 2024 | hysaTech. All Rights Resserved</p>
+        </div>
+    </section>
+
+    <!-- Custom js link -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
